@@ -5,9 +5,9 @@ import java.util.HashMap;
 public class DemoMap {
 
 	public static void main(String[] args) {
-		//inserion oder not maintain,oder depend on key
-		//duplication is allowed,bt key should be different
-		//hetterogenius is possible,but if
+		//Insertion oder not maintain,oder depend on key
+		//Duplication is allowed,but key should be different
+		//Heterogeneous is possible,but if
 		//duplicate values are allowed,key not allowed
 		HashMap map=new HashMap<Integer,String>();
 		map.put(10, "deepa");

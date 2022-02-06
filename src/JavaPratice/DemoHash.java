@@ -6,7 +6,7 @@ public class DemoHash {
 
 	public static void main(String[] args) {
 		
-		HashSet set=new HashSet<>();
+		HashSet  set=new HashSet();
 		set.add("a");
 		set.add(20);
 		set.add(210);
