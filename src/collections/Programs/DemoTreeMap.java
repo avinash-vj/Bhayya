@@ -1,4 +1,4 @@
-package JavaPratice;
+package collections.Programs;
 
 import java.util.TreeMap;
 
