@@ -8,7 +8,7 @@ public class printContinous {
 	}
 
 	public static void printName(int n) {
-		
+
 		if (--n > 0) {
 			//System.out.println(n);
 			System.out.println("Avinash");
