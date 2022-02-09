@@ -3,7 +3,7 @@ package ProgramTestYantra;
 public class primeNumberCheck {
 
 	public static void main(String[] args) {
-		int n=91;
+		int n=5;
 		int i=2;
 
 		while(i<=n) {

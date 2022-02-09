@@ -3,11 +3,12 @@ package ProgramTestYantra;
 public class sortArrayAscending {
 
 	public static void main(String[] args) {
-		int []a= {10,2,1,6,8,1,6,8};
+		int []a= {10,5,1,6,8,1,6,8};
 		for (int i = 0; i < a.length; i++) {
 			for (int j = i+1; j < a.length; j++) {
+				int temp=a[i];
 				if(a[i]>a[j]) {
-					int temp=a[i];
+					
 					a[i]=a[j];
 					a[j]=temp;
 				}				
