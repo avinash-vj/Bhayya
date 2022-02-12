@@ -12,10 +12,12 @@ public static void main(String[] args) {
 		set.add(str[i]);
 	}
 	
+	
 	System.out.println("the string without duplicate is :");
 	for (String st : set) {
 		
 		System.out.print(st+" ");
 	}
+	
 }
 }

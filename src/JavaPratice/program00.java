@@ -45,10 +45,14 @@ public class program00 {
 				+ "35. Print the sum of first 3 maximum numbers in array?\r\n"
 				+ "36. Print the maximum length of elements present in array?\r\n"
 				+ "37. Find the position of each character in the given String? i/p \"testing --> o/p t=1;e=3;s=3;r=6\r\n"
-				+ "38. Swap the first and last work in the staring statement?\r\n"
+				+ "38. Swap the first and last word in the staring statement?\r\n"
 				+ "39. Suming the digits till the answer is less than 9?\r\n"
 				+ "40. Print all the prime numbers in the provided array?\r\n"
-				+ "41. Print the vowels present in the staring aray, individually? {apple.bananana}--> apple=2/banana=3 and e=2/banana=1");
+				+ "41. Print the vowels present in the staring aray, individually? {apple.bananana}--> apple=2/banana=3 and e=2/banana=1\r\n"
+				+ "42. Add two arrays?");
+		
+		System.out.println("43. Write a program to Segregate 0s and other numbers? {0,1,0,0,3,2,1,0,0}--> [1,3,2,1,0,0,0,0]");
+		System.out.println("44. ");
 
 	}
 
