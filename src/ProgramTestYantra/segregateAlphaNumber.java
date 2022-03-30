@@ -19,12 +19,9 @@ public class segregateAlphaNumber {
 			else {
 				special=special+s.charAt(i);
 			}
-		}
-		
+		}		
 		System.out.println("Special Charachet :"+special);
 		System.out.println("Numbers :"+num);
 		System.out.println("Alphabets :"+alpha);
-
 	}
-
 }

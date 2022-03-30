@@ -1,6 +1,7 @@
 package ProgramTestYantra;
 
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 
 public class occuranceCharacter {
 
@@ -9,7 +10,9 @@ public class occuranceCharacter {
 		String s="Character";
 		s=s.toLowerCase();
 		//Crating the HashSet (no duplicate allowed)
-		HashSet<Character> set = new HashSet<Character>();
+		//Linked : insertion order maintained
+		LinkedHashSet<Character> set=new LinkedHashSet<Character>();
+		//HashSet<Character> set = new HashSet<Character>();
 		//Adding the String value to HashSet
 		for (int i = 0; i < s.length(); i++) {
 			set.add(s.charAt(i));

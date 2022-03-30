@@ -4,7 +4,7 @@ public class printString {
 
 	public static void main(String[] args) {
 		int count=0;
-		String s="Automation Engineer";
+		String s="Madam";
 		String reverse ="";
 		System.out.println("Printing Original String : ");
 		for (int i = 0; i <s.length(); i++) {
@@ -33,7 +33,17 @@ public class printString {
 		for (int i = count-1; i >=0; i--) {
 			System.out.print(charArray[i]);
 		}
-		
+		System.out.println();
 		System.out.println("String is Palindrome");
+		if(s.equalsIgnoreCase(reverse)) {
+			System.out.println("Its palindrome");
+		}
+		else {
+			System.out.println("its not palindrome");
+		}
+		
+		StringBuilder s1= new StringBuilder("HelloWorld");
+		//StringBuilder qw = s.reverse();
+		System.out.println(s1.reverse());
 	}
 }

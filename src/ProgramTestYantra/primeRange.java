@@ -3,26 +3,24 @@ package ProgramTestYantra;
 public class primeRange {
 
 	public static void main(String[] args) {
-		//Scanner s=new Scanner(System.in);
-		//System.out.println("Enter the starting A and B number");
-		int a=10;
-		int b=200;
-		int q=2;
-		while(a<=b) {
-			if(a%q==0) {
-				break;
+		int a=0;
+		int b=55;
+		System.out.println("prime number range : "+a+" to "+b);
+		for (int i = a; i <=b; i++) {
+			if(primeCheck(i)) {
+				System.out.print(i+",");
 			}
-			a++;
 		}
-			if(a==q){
-				System.out.println("its prime numnber");
-			}
-			else {
-				System.out.println("not a prime number");
-			}
-			q++;
-			
-		}
-		
-
 	}
+	public static boolean primeCheck(int n) {
+		if (n < 1) {
+			return false;
+		}			
+		for (int i = 2; i < n; i++)	{
+			if (n % i == 0) {
+				return false;
+			}
+		}
+		return true;
+	}
+}

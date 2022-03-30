@@ -1,34 +1,34 @@
 package ProgramTestYantra;
 
+import java.util.ArrayList;
+
 public class arrayPrimeNumber {
-
+	
 	public static void main(String[] args) {
-		int []a=new int[10];
-		int k=1;
-		int div=1;
-		for (int i = 0; i < a.length; i++) {
-			if(k%div==0) {
-				a[i]=k;
-				System.out.println(a[i]);
-				break;}
-				else {
-					
-				}
-			}
-			/*
-			while(k<=div) {
-				if(k%div==0) {
-				a[i]=k;
-				System.out.println(a[i]);
-				k++;
-				break;
-				}
-				else {
-					//k++;
-				div++;				
-			}
-			*/
-		
+		//public 
+	}
 
-}
+	public ArrayList getPrimeNumbers(int number)
+	{
+	    ArrayList primeNumbers = new ArrayList();
+	    for (int i = 0; i <= number; i++)
+	    {
+	        if(isPrime(i)) 
+	        {
+	            primeNumbers.add(i);
+	        }
+	    }
+	    return primeNumbers;
+	} 
+
+
+	private boolean isPrime(int n) 
+	{
+	    for(int i=2;i<n;i++) 
+	    {
+	        if(n%i==0)
+	            return false;
+	    }
+	    return true;
+	}
 }

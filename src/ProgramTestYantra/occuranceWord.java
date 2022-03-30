@@ -1,17 +1,19 @@
 package ProgramTestYantra;
 
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 
 public class occuranceWord {
 
 	public static void main(String[] args) {
 		String s="the sky is blue and water is blue";
 		String[] str = s.split(" ");
-		//LinkedHashSet<String> set=new LinkedHashSet<String>();
-		HashSet<String> set=new HashSet<String>();
+		LinkedHashSet<String> set=new LinkedHashSet<String>();
+		//HashSet<String> set=new HashSet<String>();
 		for (int i = 0; i < str.length; i++) {
 			set.add(str[i]);
 		}
+		System.out.println(set);
 
 		for (String word : set) {
 			int count=0;

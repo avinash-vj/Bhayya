@@ -12,6 +12,7 @@ public class program18 {
 		for (int i = 0; i < s.length(); i++) {
 			set.add(s.charAt(i));			
 		}
+		System.out.println(set);
 		System.out.println("Printing unique charaters only : ");
 		for (Character ch : set) {
 			int count=0;

@@ -1,5 +1,6 @@
 package ProgramTestYantra;
 
+import java.util.HashSet;
 import java.util.LinkedHashSet;
 
 public class postOfCharaterString {
@@ -8,6 +9,7 @@ public class postOfCharaterString {
 		String s="teSteR";
 		s=s.toLowerCase();
 		LinkedHashSet<Character>set=new LinkedHashSet<Character>();
+		//HashSet<Character>set=new HashSet<Character>();
 		for (int i = 0; i < s.length(); i++) {
 			set.add(s.charAt(i));
 		}

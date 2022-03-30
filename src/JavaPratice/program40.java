@@ -9,10 +9,10 @@ public class program40 {
 			if(n==1) {
 				System.out.println("Prime no : "+n);
 			}
-			/*else if(n==0) {
+			else if(n==0) {
 				System.err.println(n+" not a valid integer");
 			}
-			*/else {
+			else {
 				int a=2;
 				while(n>=a) {
 					if(n%a==0) {
@@ -24,7 +24,7 @@ public class program40 {
 					System.out.println("Prime no : "+n);
 				}
 				else {
-					System.err.println("Not Prime no : "+n);
+					//System.err.println("Not Prime no : "+n);
 				}
 				a=2;
 			}

@@ -3,7 +3,7 @@ package ProgramTestYantra;
 public class primeNumberCheck {
 
 	public static void main(String[] args) {
-		int n=5;
+		int n=22;
 		int i=2;
 
 		while(i<=n) {
@@ -11,16 +11,15 @@ public class primeNumberCheck {
 				break;
 			}
 			i++;
-		}
-		
+		}		
 		if(n==i) {
 			System.out.println("its prime numnber");
 		}
 		else {
 			System.out.println("not a prime number");
 		}
-		/*
-
+		
+/*
 		System.out.println("logic two");
 		int count=0;
 		for (int j = 1; j <=n; j++) {
@@ -35,7 +34,7 @@ public class primeNumberCheck {
 		else {
 			System.out.println("its a prime number");
 		}
-		 */
+*/		 
 	}
 
 }

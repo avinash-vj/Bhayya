@@ -8,7 +8,7 @@ public class segration01sArray {
 		int m=0; //starting index of the b[]
 		int n=b.length-1; //ending index of the b[]
 		for (int i = 0; i < b.length; i++) {
-			if(a[i]==0) {
+			if(a[i]!=0) {
 				b[n]=a[i];
 				n--;
 			}
@@ -20,7 +20,5 @@ public class segration01sArray {
 		for (int i = 0; i < b.length; i++) {
 			System.out.print(b[i]+" ");
 		}
-
 	}
-
 }

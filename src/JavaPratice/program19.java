@@ -12,6 +12,7 @@ public class program19 {
 		for (int i = 0; i < s.length(); i++) {
 			set.add(s.charAt(i));			
 		}
+		System.out.println(set);
 		System.out.println("Removing duplicate and printing : ");
 		for (Character ch : set) {
 			System.out.print(ch+", ");

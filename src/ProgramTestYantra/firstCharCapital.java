@@ -3,14 +3,14 @@ package ProgramTestYantra;
 public class firstCharCapital {
 
 	public static void main(String[] args) {
-		String s="Welcome";
-		System.out.println(" String Word");
+		String s="welcome";
+		System.out.println(" string Word");
 		char[] a = s.toCharArray();
 		for (int i = 0; i < a.length; i++) {
 			a[i]=Character.toUpperCase(a[i]);
 			break;
 		}
-		
+		System.out.println();
 		for (int i = 0; i < a.length; i++) {
 			System.out.print(a[i]);
 		}

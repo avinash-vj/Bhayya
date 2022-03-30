@@ -3,7 +3,7 @@ package ProgramTestYantra;
 public class firstArrayMaximum {
 
 	public static void main(String[] args) {
-		int []a= {5,25,2,6,4,3,71};
+		int []a= {5,25,2,6,4,3,71,51};
 		int temp=0;
 		for (int i = 0; i < a.length; i++) {
 			if(a[i]>temp) {
@@ -16,25 +16,9 @@ public class firstArrayMaximum {
 			}
 		}
 		System.out.println(temp);
-		
-		int max1=a[0];
-		int max2=a[1];
-		for (int i = 1; i < a.length; i++) {
-			if(max1<a[i]) {
-				max1=a[i];
-			}
-			for (int j = 0; j < a.length; j++) {
-				if(max2<a[i]) {
-					//max2=
-				}
-			
-		}
-		System.out.println("-----"+max1);
-		System.out.println(max2);
-	
 
 	}
-}}
+}
 
 /*
 for (int i = 0; i < a.length; i++) {

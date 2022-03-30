@@ -14,5 +14,7 @@ public class printContinous {
 			System.out.println("Avinash");
 			printName(n);
 		}
+		
+		
 	}
 }
